@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "991131775169",
+    "project_id": "geocatch-hysn5o",
+    "storage_bucket": "geocatch-hysn5o.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991131775169:android:86529a73b4f98645d9e440",
+        "android_client_info": {
+          "package_name": "com.mycompany.geocatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHqVrev5mbriuw522KlQaOHqMsAX1m4cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
