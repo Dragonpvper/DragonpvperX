@@ -50,6 +50,36 @@ class FFAppState extends ChangeNotifier {
     _safeInit(() {
       _glc1 = prefs.getBool('ff_glc1') ?? _glc1;
     });
+    _safeInit(() {
+      _glc2 = prefs.getBool('ff_glc2') ?? _glc2;
+    });
+    _safeInit(() {
+      _glc3 = prefs.getBool('ff_glc3') ?? _glc3;
+    });
+    _safeInit(() {
+      _glc4 = prefs.getBool('ff_glc4') ?? _glc4;
+    });
+    _safeInit(() {
+      _glc5 = prefs.getBool('ff_glc5') ?? _glc5;
+    });
+    _safeInit(() {
+      _glc6 = prefs.getBool('ff_glc6') ?? _glc6;
+    });
+    _safeInit(() {
+      _glc7 = prefs.getBool('ff_glc7') ?? _glc7;
+    });
+    _safeInit(() {
+      _glc8 = prefs.getBool('ff_glc8') ?? _glc8;
+    });
+    _safeInit(() {
+      _glc9 = prefs.getBool('ff_glc9') ?? _glc9;
+    });
+    _safeInit(() {
+      _glc10 = prefs.getBool('ff_glc10') ?? _glc10;
+    });
+    _safeInit(() {
+      _glcx = prefs.getBool('ff_glcx') ?? _glcx;
+    });
   }
 
   void update(VoidCallback callback) {
@@ -160,60 +190,70 @@ class FFAppState extends ChangeNotifier {
   bool get glc2 => _glc2;
   set glc2(bool value) {
     _glc2 = value;
+    prefs.setBool('ff_glc2', value);
   }
 
   bool _glc3 = false;
   bool get glc3 => _glc3;
   set glc3(bool value) {
     _glc3 = value;
+    prefs.setBool('ff_glc3', value);
   }
 
   bool _glc4 = false;
   bool get glc4 => _glc4;
   set glc4(bool value) {
     _glc4 = value;
+    prefs.setBool('ff_glc4', value);
   }
 
   bool _glc5 = false;
   bool get glc5 => _glc5;
   set glc5(bool value) {
     _glc5 = value;
+    prefs.setBool('ff_glc5', value);
   }
 
   bool _glc6 = false;
   bool get glc6 => _glc6;
   set glc6(bool value) {
     _glc6 = value;
+    prefs.setBool('ff_glc6', value);
   }
 
   bool _glc7 = false;
   bool get glc7 => _glc7;
   set glc7(bool value) {
     _glc7 = value;
+    prefs.setBool('ff_glc7', value);
   }
 
   bool _glc8 = false;
   bool get glc8 => _glc8;
   set glc8(bool value) {
     _glc8 = value;
+    prefs.setBool('ff_glc8', value);
   }
 
   bool _glc9 = false;
   bool get glc9 => _glc9;
   set glc9(bool value) {
     _glc9 = value;
+    prefs.setBool('ff_glc9', value);
   }
 
   bool _glc10 = false;
   bool get glc10 => _glc10;
   set glc10(bool value) {
     _glc10 = value;
+    prefs.setBool('ff_glc10', value);
   }
 
   bool _glcx = false;
   bool get glcx => _glcx;
   set glcx(bool value) {
     _glcx = value;
+    prefs.setBool('ff_glcx', value);
   }
 }
 
